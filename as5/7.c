@@ -55,8 +55,8 @@ void serial(int N) {
 
 int main(int argc, char *argv[])
 { 
-  serial(10000);
-  parallel(10000);
+  serial(50000);
+  parallel(50000);
   return EXIT_SUCCESS;
 }
 

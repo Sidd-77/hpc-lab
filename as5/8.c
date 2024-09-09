@@ -53,8 +53,8 @@ void sequential(int N) {
 
 int main(int argc, char *argv[])
 {
-  sequential(100000);
-  parallel(100000);
+  sequential(1000000);
+  parallel(1000000);
   return EXIT_SUCCESS;
 }
 
